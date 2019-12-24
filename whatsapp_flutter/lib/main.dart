@@ -8,6 +8,7 @@ class WhatsApp extends StatelessWidget{
   Widget build(BuildContext context) {
 
     return MaterialApp(
+      theme: ThemeData(primaryColorLight: Color(0xFF128C7E)),
       title: "WhatsApp App",
       home:DefaultTabController(
         length: 4,
